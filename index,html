@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배포 실습</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f0f0; }
+        .card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+        .badge { background: #0070f3; color: white; padding: 5px 10px; border-radius: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Vercel 정적 배포</h1>
+        <p>HTML 파일 하나로 배포하는 실습입니다.</p>
+        <br>
+        <span class="badge">Version 1.0</span>
+    </div>
+</body>
+</html>
